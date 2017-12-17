@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Zorro</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+    <string name="nameerror">Enter a valid name</string>
+    <string name="title_activity_google">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

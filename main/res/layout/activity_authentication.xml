@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Layout"
+    tools:context="com.example.dell.map.Authentication">
+
+    <EditText
+        android:id="@+id/email"
+        android:hint=" Email"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        style="@style/EditText"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:hint=" Password"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        style="@style/EditText"/>
+
+    <Button
+        android:id="@+id/login"
+        android:text="Login"
+        style="@style/Button"/>
+
+    <Button
+        android:id="@+id/signup"
+        android:text="Create Account"
+        style="@style/Button"/>
+
+</LinearLayout>
